@@ -1,0 +1,45 @@
+#kalk{
+    margin: 0;
+    position: absolute;
+    transform: translateY(-50%);
+    transform: translateX(200%);
+    top: 30%;
+    border: 5px solid rgb(255, 3, 3);
+    background-color: rgb(59, 57, 57);
+    border-radius: 15px;
+    }
+.guzik {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15.5px 40.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14.5px;
+    border: 2px solid rgb(255, 3, 3);
+    border-radius: 15px;
+}
+.guzik1 {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid rgb(255, 3, 3);
+    border-radius: 15px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 15px 50px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 3, 3);
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgb(0, 175, 245);
+    padding-left: 5px;
+    padding-right: 5px;
+}

@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <script src="kalkulator.js"></script>
+    <link rel="stylesheet" href="kalkulator.css" type="text/css">
+</head>
+<body>
+<div id="kalk">
+    <table>
+        <tr>
+            <td"><input colspan="5" type="text" id="wynik" readonly></td>
+        </tr>
+        <tr> 
+            <td><input colspan="5" type="button" onclick="usun()" class="guzik1" value="AC"></td>
+            <td><input colspan="5" type="button" onclick="usun_koniec()" class="guzik1" value="CE"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="p7()" value="7" class="guzik1"></td>
+            <td><input type="button" onclick="p8()" value="8" class="guzik1"></td>
+            <td><input type="button" onclick="p9()" value="9" class="guzik1"></td>
+            <td><input type="button" onclick="dodawanie()" value="+" class="guzik1"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="p4()" value="4" class="guzik1"></td>
+            <td><input type="button" onclick="p5()" value="5" class="guzik1"></td>
+            <td><input type="button" onclick="p6()" value="6" class="guzik1"></td>
+            <td><input type="button" onclick="odejmowanie()" value="- " class="guzik1"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="p1()" value="1" class="guzik1"></td>
+            <td><input type="button" onclick="p2()" value="2" class="guzik1"></td>
+            <td><input type="button" onclick="p3()" value="3" class="guzik1"></td>
+            <td><input type="button" onclick="mnozenie()" value="*" class="guzik1"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="kropka()" value="." class="guzik1"></td>
+            <td><input type="button" onclick="zero()" value="0" class="guzik1"></td>
+            <td><input type="button" onclick="dzielenie()" value=" /" class="guzik1"></td>
+            <td><input type="button" onclick="liczenie()" value="=" class="guzik1"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
